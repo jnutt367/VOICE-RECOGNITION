@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: greenyellow;
+    display: grid;
+}
+
+header {
+    background: yellow;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+button {
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    align-content: center;
+    background: yellow;
+    padding: 20px;
+}
