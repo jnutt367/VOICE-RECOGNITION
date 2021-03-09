@@ -5,7 +5,8 @@
 }
 
 body {
-    background: greenyellow;
+    background-image: url('../app.jpg');
+    background-size: cover;
     display: grid;
 }
 
