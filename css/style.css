@@ -7,7 +7,9 @@
 body {
     background-image: url('../app.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
+    color: yellow;
 }
 
 header {
@@ -15,13 +17,16 @@ header {
 }
 
 h1 {
+    color: black;
     text-align: center;
     padding: 20px;
     line-height: 1.5em;
 }
+
 h2 {
-    color: yellow;
+    padding: 15px;
 }
+
 button {
     margin-top: 50px;
     height: 40px;
