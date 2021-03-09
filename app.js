@@ -31,7 +31,7 @@ recognition.onresult = function(event) {
 
 // add the listener to the button
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click' || 'push' || 'tap', () => {
     recognition.start();
 });
 
