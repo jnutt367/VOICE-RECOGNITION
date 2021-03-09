@@ -19,7 +19,9 @@ h1 {
     padding: 20px;
     line-height: 1.5em;
 }
-
+h2 {
+    color: yellow;
+}
 button {
     margin-top: 50px;
     height: 40px;
