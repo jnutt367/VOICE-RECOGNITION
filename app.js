@@ -50,7 +50,7 @@ function readOutLoud(message) {
 
 
     speech.volume = 1;
-    speech.rate = 0.7;
+    speech.rate = 0.9;
     speech.speed = 0.2;
 
     window.speechSynthesis.speak(speech);
