@@ -4,9 +4,11 @@ const content = document.querySelector('.content');
 // this is where the response messages will be defined in arrays //
 
 const greetings = [
-    'Im good thank you',
+    'I am blessed beyond all measure',
     'Fine and Yourself?',
-    'Do we really have time for pleasantries you have work to do and people to contact you jack rabbit lets go jay nutt'
+    'Im a freed slave and captivated by Christ our lord',
+    'Absolutely better than I could have ever asked for',
+    'The real question is how are you?'
 ];
 
 const weather = [
@@ -38,7 +40,7 @@ btn.addEventListener('touchstart', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'I dont understand but at least this app is Orlando Thunder colors so you can enjoy while you still have no answers to life ha ha ha';
+    speech.text = 'I dont understand but God is good try another question';
 
     if (message.includes('how are you')) {
         const finalText = greetings[Math.floor(Math.random() * greetings.length)];
