@@ -9,22 +9,35 @@ body {
     border: 1px solid white;
     box-shadow: 2px 2px 2px 2px white;
     border-radius: 15px;
-    background-image: url('../pexels-pixabay-boom-box.jpg');
+    background-image: url('../195.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    color: yellow;
+    color: blue;
 }
 
 header {
     position: relative;
-    background: yellow;
+    background: skyblue;
+    opacity: 0.8;
     border-radius: 15px;
     border: white;
 }
 
+header a {
+    margin-left: 1em;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-size: 25px;
+}
+
+.logo {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
 .overlay {
-    background-color: green;
+    background-color: seashell;
     opacity: 0.8;
     margin: 10px 5px 0 10px;
     border-radius: 15px;
@@ -47,9 +60,12 @@ h2 {
 button {
     margin-top: 50px;
     height: 40px;
-    width: 100%;
+    max-width: fit-content;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-radius: 50%;
     align-content: center;
-    background: yellow;
+    background: skyblue;
     padding: 20px;
 }
 
