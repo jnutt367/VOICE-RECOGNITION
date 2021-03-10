@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 15px 20px 0 20px;
+    margin: 50px 100px 0 100px;
     border: 1px solid white;
     box-shadow: 2px 2px 2px 2px black;
     border-radius: 15px;
@@ -59,7 +59,7 @@ h2 {
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
     opacity: 2;
-    text-shadow: 2px 2px skyblue;
+    text-shadow: 2px 2px white;
     color: black;
 }
 
@@ -79,8 +79,8 @@ h4 {
     margin-left: 50px;
     font-size: 25px;
     margin-bottom: 2em;
-    text-shadow: 1px 1px black;
-    color: purple;
+    text-shadow: 1px 1px silver;
+    color: black;
 }
 
 .content {
