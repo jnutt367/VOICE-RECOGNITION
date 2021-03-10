@@ -7,22 +7,23 @@
 body {
     margin: 15px 20px 0 20px;
     border: 1px solid white;
-    box-shadow: 2px 2px 2px 2px white;
+    box-shadow: 2px 2px 2px 2px black;
     border-radius: 15px;
     background-image: url('../195.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    color: blue;
+    color: skyblue;
     font-family: cursive;
 }
 
 header {
     position: relative;
     background: skyblue;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 15px;
     border: white;
+    box-shadow: 1px 1px grey;
 }
 
 header a {
@@ -38,7 +39,7 @@ header a {
 }
 
 .overlay {
-    background-color: seashell;
+    background-color: transparent;
     opacity: 0.7;
     margin: 10px 5px 0 10px;
     border-radius: 15px;
@@ -46,12 +47,12 @@ header a {
 }
 
 h1 {
-    position: relative;
     color: black;
     text-align: center;
     padding: 20px;
     line-height: 1.5em;
     z-index: 1000;
+    font-family: fantasy;
 }
 
 h2 {
@@ -78,7 +79,8 @@ h4 {
     margin-left: 50px;
     font-size: 25px;
     margin-bottom: 2em;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px black;
+    color: purple;
 }
 
 .content {
