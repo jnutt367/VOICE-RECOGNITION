@@ -5,7 +5,11 @@
 }
 
 body {
-    background-image: url('../app.jpg');
+    margin: 15px 20px 0 20px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 15px;
+    background-image: url('../pexels-pixabay-boom-box.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -13,14 +17,27 @@ body {
 }
 
 header {
+    position: relative;
     background: yellow;
+    border-radius: 15px;
+    border: white;
+}
+
+.overlay {
+    background-color: hotpink;
+    opacity: 0.8;
+    margin: 10px 5px 0 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
 }
 
 h1 {
+    position: relative;
     color: black;
     text-align: center;
     padding: 20px;
     line-height: 1.5em;
+    z-index: 1000;
 }
 
 h2 {
@@ -34,4 +51,29 @@ button {
     align-content: center;
     background: yellow;
     padding: 20px;
+}
+
+h4 {
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 2em;
+}
+
+.content {
+    padding: 2em;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+@media (min-width:400px) {
+    h2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    button {
+        margin-left: 2em;
+        border-radius: 50%;
+        max-width: fit-content;
+        text-align: center;
+    }
 }
